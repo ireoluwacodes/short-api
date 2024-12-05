@@ -1,4 +1,5 @@
 import jwt from "jsonwebtoken";
+import { secret } from "./constants.config.js";
 
 export const signToken = async (email) => {
   try {
